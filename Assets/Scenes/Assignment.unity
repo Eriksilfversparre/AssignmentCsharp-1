@@ -450,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 185402132}
   player2: {fileID: 749211972}
-  maxTimePerTurn: 5
+  maxTimePerTurn: 8
   timeBetweenTurns: 2
   clock: {fileID: 716726947}
   seconds: {fileID: 1621681972}
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 118223065}
-  disntanceFromPlayer: {x: 0, y: 10, z: -15}
+  disntanceFromPlayer: {x: 0, y: 15, z: -20}
   cameraSpeed: 9
 --- !u!1 &1079605784
 GameObject:
