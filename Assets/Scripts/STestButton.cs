@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SShoot : MonoBehaviour
+public class STestButton : MonoBehaviour
 {
     [SerializeField] private Button button;
     [SerializeField] private STurnManager manager;
@@ -16,6 +16,6 @@ public class SShoot : MonoBehaviour
     public void ButtonPressed()
     {
        SActivePlayer currentPlayer = manager.GetCurrentPlayer();
-       currentPlayer.ShotWeapon();
+       currentPlayer.ButtonTurnChange();
     }
 }

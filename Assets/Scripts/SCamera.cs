@@ -11,10 +11,7 @@ public class SCamera : MonoBehaviour
     private void Update()
     {
         Vector3 targetPosition = manager.GetCurrentPlayer().transform.position + disntanceFromPlayer;
-
-
         float step = cameraSpeed * Time.deltaTime;
-
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
     }
 }
